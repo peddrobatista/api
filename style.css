@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div {
+    margin: 15px;
+}
+span {
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 5px;
+}
+#btnTexto {
+    background-color: #05c46b;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+}
