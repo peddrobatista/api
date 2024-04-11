@@ -5,7 +5,7 @@ const btnTexto = document.querySelector("#btnTexto");
 
 
 const obtendoDados = () => {
-    const endpoint = "http://localhost:8080/";
+    const endpoint = "http://localhost:8080";
     fetch(endpoint)
     .then(res => res.json())
     .then(dados => {
